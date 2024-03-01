@@ -1,0 +1,12 @@
+.about_tow{
+    background-image: url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/banner-05.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position:  center -100px;
+}
+
+@media (max-width:997px) {
+    .about_tow{
+        background-image: unset;
+    }
+}

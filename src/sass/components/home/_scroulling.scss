@@ -1,0 +1,58 @@
+.scrolling_container{
+    width: 100%;
+    background-color: white;
+    .global_container{
+        .scrolling{
+            margin: 0px auto;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 75px 0px;
+            width: 90%;
+            position: relative;
+            .fa-angle-left{
+                position: absolute;
+                left: 0%;
+                cursor: pointer;
+                z-index: 2;
+            }
+            .fa-angle-right{
+                position: absolute;
+                right: 0%;
+                cursor: pointer;
+                z-index: 2;
+            }
+            .scroll{
+                display: flex;
+                width: 90%;
+                justify-content: flex-start;
+                align-items: center;
+                overflow-x: auto;
+                scrollbar-width: none;
+                scroll-behavior: smooth;
+                scroll-margin: 0px;
+                scroll-padding: 0px;
+                gap: 100px;
+                z-index: 1;
+                img{
+                    width: 114px;
+                }
+            }
+            .scroll::-webkit-scrollbar {
+                display: none;
+            }
+    
+        }
+    }
+}
+
+
+
+
+@media (max-width:768px) {
+    .scrolling_container{
+        display: none;
+    }
+}
+

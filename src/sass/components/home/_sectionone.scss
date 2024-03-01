@@ -1,0 +1,34 @@
+.section-one{
+    position: relative;
+    background-image: url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/home-new-bg-free-img.jpg);
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:  100%;
+    
+    .image_cover{
+        position: absolute;
+        width: 100%;
+        top: 0%;
+        left: 0%;
+        height: 46vw;
+        opacity: 0.6;
+        z-index: 1;
+    }
+}
+@media (max-width:997px) {
+    .section-one{
+        background-size: auto 550px;
+        .image_cover{
+            height: 550px !important;
+        }
+    }
+    
+}
+@media(max-width:1200px) {
+    .section-one{
+        .image_cover{
+            height: 550px;
+        }
+    }
+}

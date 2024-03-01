@@ -1,0 +1,333 @@
+.footer{
+    .breack_line{
+        width: 100%;
+        height: 2px;
+        background-color: rgba(128, 128, 128, 0.514);
+    }
+    .global_container{
+        .sale{
+            margin: 50px 0px;
+            width: 100%;
+            font-size: 13px;
+            width: 100%;
+            h1{
+                font-weight: 400;
+            }
+        }
+        .dnk_container{
+            display: flex;
+            margin: 70px 0px;
+            justify-content: space-between;
+            >div{
+                display: flex;
+                flex-direction: column;
+                gap: 40px;
+                .image{
+                    width: 25%;
+                    img{
+                        color: black;
+                        width: 100%;
+                    }
+                }
+                h3{
+                    font-size: 24px;
+                }
+            }
+            ul{
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                ld{
+                    margin-bottom: 20px;
+                    font-size: 20px;
+                }
+                li{
+                    color: rgba(0, 0, 0, 0.527);
+                    font-weight: 300;
+                    cursor: pointer;
+                    transition-duration: 200ms;
+                }
+                li:hover{
+                    color: #0084d6;
+                }
+            }
+        }
+        .sub_container{
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            input[type="text"]{
+                padding: 10px 14px;
+                text-transform: uppercase;
+                width: 100%;
+            }
+            button{
+                
+                padding: 14px 18px;
+                width: 60%;
+                border: none;
+                outline: none;
+                color: white;
+                cursor: pointer;
+                text-transform: uppercase;
+                font-size: 14px;
+                font-weight: 500;
+            }
+        }
+        .copyright{
+            display: flex;
+            justify-content: space-between;
+            margin: 25px 0px 65px;
+            .copy{
+                h4{
+                    font-weight: 300;
+                }
+            }
+            .conact_icone{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 20px;
+                i{
+                    font-size: 18px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}
+@media (max-width:320px) {
+    .footer{
+        .sale{
+            width: 100%;
+            h1{
+               font-size: 14px;
+               text-align: center !important;
+            }
+        }
+        .dnk_container{
+            flex-direction: column;
+            align-items: center;
+            gap: 50px 0px;
+            >div{
+                text-align: center;
+                input{
+                    font-size: 12px;
+                    padding: 8px !important;
+                }
+                button{
+                    width: 80%;
+                }
+                align-items: center;
+                width: 80%;
+                h3{
+                    font-size: 18px;
+                }
+                .image{
+                    margin: auto 0px;
+                    width: 50%;
+                }
+            }
+            >ul{
+                align-items: center;
+                width: 80%;
+            }
+         }
+         .copyright{
+            flex-direction: column;
+            align-items: center;
+            gap: 20px 0px;
+            >div{
+                text-align: center;
+                line-height: 1.5;
+                h4{
+                    font-size: 14px;
+                }
+                i{
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+}
+@media (min-width:321px) and (max-width:480px) {
+    .footer{
+         .sale{
+            width: 100%;
+            h1{
+               font-size: 14px;
+               text-align: center;
+            }
+        }
+         .dnk_container{
+            flex-direction: column;
+            align-items: center;
+            gap: 50px 0px;
+            >div{
+                text-align: center;
+                input{
+                    font-size: 12px;
+                    padding: 8px !important;
+                }
+                button{
+                    width: 80%;
+                }
+                align-items: center;
+                width: 80%;
+                h3{
+                    font-size: 18px;
+                }
+                .image{
+                    margin: auto 0px;
+                    width: 50%;
+                }
+            }
+            >ul{
+                align-items: center;
+                width: 80%;
+            }
+         }
+         .copyright{
+            flex-direction: column;
+            align-items: center;
+            gap: 20px 0px;
+            >div{
+                text-align: center;
+                line-height: 1.5;
+                h4{
+                    font-size: 14px;
+                }
+                i{
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+}
+@media (min-width:480px) and (max-width:600px) {
+    .footer{
+         .sale{
+            width: 100%;
+            h1{
+               font-size: 14px;
+            }
+        }
+         .dnk_container{
+            flex-wrap: wrap;
+            gap: 50px 0px;
+            >div{
+                input{
+                    font-size: 12px;
+                    padding: 8px !important;
+                }
+                button{
+                    width: 80%;
+                }
+                width: 40%;
+                h3{
+                    font-size: 18px;
+                }
+                .image{
+                    width: 50%;
+                }
+            }
+            >ul{
+                width: 40%;
+            }
+         }
+         .copyright{
+            flex-direction: column;
+            align-items: center;
+            gap: 20px 0px;
+            >div{
+                h4{
+                    font-size: 14px;
+                }
+                i{
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+}
+@media (min-width:601px) and (max-width:768px) {
+    .footer{
+         .sale{
+             width: 100%;
+             h1{
+                font-size: 14px;
+             }
+         }
+        .dnk_container{
+            flex-wrap: wrap;
+            >div{
+                h2{
+                    font-size: 18px;
+                }
+                input{
+                    font-size: 12px;
+                    padding: 8px !important;
+                }
+                button{
+                    width: 80%;
+                }
+                width: 30%;
+                h3{
+                    font-size: 18px;
+                }
+                .image{
+                    width: 50%;
+                }
+            }
+            >ul{
+                width: 30%;
+            }
+        }
+        .copyright{
+            >div{
+                h4{
+                    font-size: 16px;
+                }
+                i{
+                    font-size: 16px !important;
+                }
+            }
+        }
+    }
+}
+@media (min-width:769px) and (max-width:997px) {
+    .footer{
+         .sale{
+            width: 100%;
+            h1{
+               font-size: 16px;
+            }
+        }
+         .dnk_container{
+            flex-wrap: wrap;
+            gap: 20px 30px;
+            >div{
+                width: 30%;
+                h3{
+                    font-size: 18px;
+                }
+                .image{
+                    width: 50%;
+                }
+            }
+            >ul{
+                width: 30%;
+            }
+         }
+        }
+    }
+@media (min-width:999px) and (max-width:1200px) {
+    .footer{   
+         .sale{
+            width: 100%;
+            h1{
+               font-size: 18px;
+            }
+        }
+        }
+    }

@@ -1,0 +1,232 @@
+.featured_main{
+    padding: 50px 0px;
+    .featured_header{
+        margin: 50px;
+        font-size: 26px;
+        font-weight: 300;
+        text-align: center;
+    }
+    .global_container{
+        
+        .view_holder{
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 20px 10px;
+            .catig{
+                width: 19%;
+                height: 600px;
+                display: flex;
+                flex-direction: column;
+                gap: 10px;
+                cursor: pointer;
+                .image_holder{
+                    height: 400px;
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    overflow: hidden;
+                    background-color: white;
+                    img{
+                        object-fit: contain;
+                        width: 90%;
+                        height: 70%;
+                    }
+                }
+                .inf_holer{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    justify-content: center;
+                    padding: 10px;
+                    gap: 10px;
+                    a{  
+                        text-decoration: none;
+                        color: black;
+                        h3{
+                            height: 70px;
+                            overflow: hidden;
+                            text-decoration: none;
+                        }
+                    }
+                    h4:nth-of-type(1){
+                        font-size: 16px;
+                        font-weight: 300;
+                    }
+                }
+            }    
+        }
+    }
+}
+@media (max-width:320px) {
+    .featured_main{
+        .global_container{
+            .view_holder{
+                .catig{
+                    width: 40%;
+                    height: 400px;
+                    .image_holder{
+                        height: 225px;
+                    }
+                    .inf_holer{
+                        a{
+                            font-size: 12px;
+                        }
+                        h4{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:321px) and (max-width:480px) {
+    .featured_main{
+        .global_container{
+            .view_holder{
+                .catig{
+                    align-items: center;
+                    width: 100%;
+                    height: 450px;
+                    .image_holder{
+                        height: 275px;
+                    }
+                    .inf_holer{
+                        text-align: center;
+                        align-items: center;
+                        a{
+                            font-size: 12px;
+                        }
+                        h4{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:480px) and (max-width:600px) {
+    .featured_main{
+        .global_container{
+            .view_holder{
+                .catig{
+                    width: 40%;
+                    height: 400px;
+                    .image_holder{
+                        height: 225px;
+                    }
+                    .inf_holer{
+                        a{
+                            font-size: 12px;
+                        }
+                        h4{
+                            font-size: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:601px) and (max-width:768px) {
+    .featured_main{
+        .global_container{
+            .view_holder{
+                .catig{
+                    width: 30%;
+                    height: 450px;
+                    .image_holder{
+                        height: 275px;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+@media (min-width:769px) and (max-width:997px) {
+    .featured_main{
+        .global_container{
+            .view_holder{
+                .catig{
+                    width: 23%;
+                    height: 450px;
+                    .image_holder{
+                        height: 275px;
+                    }
+                    
+                }
+            }
+        }
+    }
+}
+@media (min-width:998px) and (max-width:1200px) {
+    .featured_main{
+        .global_container{
+            .view_holder{
+                .catig{
+                    height: 550px;
+                    .image_holder{
+                        height: 350px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media (min-width:1201px) and (max-width:1400px) {
+    .featured_main{
+        .global_container{
+            .view_holder{
+                .catig{
+                    height: 550px;
+                    .image_holder{
+                        height: 350px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.reject_container::before{
+    position: absolute;
+    content: "";
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.445);
+    border-radius: 10px;
+}
+.reject_container{
+    position: relative;
+    background-size: cover;
+    background-position: center;
+    background-size: auto 100% ;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    background-image: url("https://www.auslogics.com/en/articles/wp-content/uploads/2023/08/shutterstock_1833391114-1-scaled.jpg");
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    color: white;
+    h1{
+        z-index: 2;
+        font-size: 40px;
+    }
+    h3{
+        z-index: 3;
+        font-size: 26px;
+        text-transform: capitalize;
+    }
+
+}

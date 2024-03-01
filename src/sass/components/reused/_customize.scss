@@ -1,0 +1,433 @@
+.cost_main[attr="false"]{
+    right: -327px;
+}
+.cost_main[attr="true"]{
+    right: 0%;
+}
+.cost_main{
+    position: fixed;
+    z-index: 3;
+    top: 0%;
+    right: 0%;
+    background-color: white;
+    height: 100vh;
+    width: 325px;
+    transition-duration: 400ms;
+    text-transform: capitalize;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    .cost_header{
+        width: 100%;
+        display: flex;
+        padding: 20px;
+        justify-content: space-between;
+        box-shadow: 6px 3px 7px 0px rgba(128, 128, 128, 0.473);
+        color: rgba(0, 0, 0, 0.726);
+        i{
+            font-size: 20px;
+            cursor: pointer;
+        }
+    }
+    .cost_para{
+        padding: 20px 20px 0px ;
+        font-size: 14px;
+        line-height: 1.7;
+        font-weight: 300;
+    }
+    .cost_try{
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        align-items: center;
+        
+        h3{
+            font-weight: 500;
+            font-size: 18px;
+        }
+        p{
+            opacity: 0.8;
+            font-size: 12px;
+            cursor: not-allowed;
+        }
+        p[attr="true"]{
+            color: #0075be;
+            cursor: pointer;
+        }
+    }
+    .cost_defa{
+        width: calc(100% - 40px);
+        padding: 12px;
+        font-size: 10px;
+        font-weight: 200;
+        border: 1px solid rgba(128, 128, 128, 0.507);
+        text-transform: uppercase;
+        display: flex;
+        justify-content: space-between;
+        border-radius: 5px;
+        transition-duration: 200ms;
+        cursor: pointer;
+        .def{
+            display: flex;
+            justify-content: space-around;
+            gap: 6px;
+        
+            >div{
+                width: 16px;
+                height: 16px;
+                border-radius: 50%;
+                border: 1px solid rgba(128, 128, 128, 0.116);
+            }
+            >div:first-of-type{
+                background-color: #0084d6;
+            }
+            >div:last-of-type{
+                background-color: #fff;
+            }
+            >div:nth-of-type(2){
+                background-color: #0075be;
+            }
+            >div:nth-of-type(3){
+                background-color: black;
+            }
+            >div:nth-of-type(4){
+                background-color: hsl(0, 0%, 20%);
+            }
+        }
+    }
+    .cost_defa:hover{
+        border-color: blue;
+    }
+    .color-container{
+        margin-top: 20px;
+            width: calc(100% - 40px);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px 0px;
+            >div{
+                width: 48%;
+                height: 40px;
+                border: 1px solid rgba(128, 128, 128, 0.205);
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: 10px;
+                gap: 2px;
+                border-radius: 5px;
+                transition-duration: 200ms;
+                cursor: pointer;
+                >div{
+                    width: 16px;
+                    height: 16px;
+                    border-radius: 50%;
+                    border: 1px solid rgba(128, 128, 128, 0.116);
+                }
+            }
+            >div:hover{
+                border-color: blue;
+            }
+            .prop{
+                >div:first-of-type{
+                    background-color: #8e43f0;
+                }
+                >div:last-of-type{
+                    background-color: #f3f1f6;
+                }
+                >div:nth-of-type(2){
+                    background-color: #6300e2;
+                }
+                >div:nth-of-type(3){
+                    background-color: #150e1f;
+                }
+                >div:nth-of-type(4){
+                    background-color: #584d66;
+                }
+            }
+            .red{
+                >div:first-of-type{
+                    background-color: #ef4d48;
+                }
+                >div:last-of-type{
+                    background-color: #f7f3f5;
+                }
+                >div:nth-of-type(2){
+                    background-color: #d90700;
+                }
+                >div:nth-of-type(3){
+                    background-color: black;
+                }
+                >div:nth-of-type(4){
+                    background-color: #2b161b;
+                }
+            }
+            .pink{
+                >div:first-of-type{
+                    background-color: #f09;
+                }
+                >div:last-of-type{
+                    background-color:#f6f3f5;
+                }
+                >div:nth-of-type(2){
+                    background-color: #f09;
+                }
+                >div:nth-of-type(3){
+                    background-color: #2b161b;
+                }
+                >div:nth-of-type(4){
+                    background-color: #554b4e;
+                }
+            }
+            .ponk{
+                >div:first-of-type{
+                    background-color: #ff6a97;
+                }
+                >div:last-of-type{
+                    background-color: #f8f3f5;
+                }
+                >div:nth-of-type(2){
+                    background-color:#fa036b;
+                }
+                >div:nth-of-type(3){
+                    background-color: #2b161b;
+                }
+                >div:nth-of-type(4){
+                    background-color: #645659;
+                }
+            }
+            .orang{
+                >div:first-of-type{
+                    background-color: #ff7a3d;
+                }
+                >div:last-of-type{
+                    background-color: #f6f3f5;
+                }
+                >div:nth-of-type(2){
+                    background-color: #f09;
+                }
+                >div:nth-of-type(3){
+                    background-color: #1e1810;
+                }
+                >div:nth-of-type(4){
+                    background-color:#4f5655;
+                }
+            }
+            .yall{
+                >div:first-of-type{
+                    background-color: #f9c349;
+                }
+                >div:last-of-type{
+                    background-color:#fff;
+                }
+                >div:nth-of-type(2){
+                    background-color: #ffb100;
+                }
+                >div:nth-of-type(3){
+                    background-color: #1e1810;
+                }
+                >div:nth-of-type(4){
+                    background-color:#62615c;
+                }
+            }
+            .groon{
+                >div:first-of-type{
+                    background-color: #30c7b5;
+                }
+                >div:last-of-type{
+                    background-color: #f9faf9;
+                }
+                >div:nth-of-type(2){
+                    background-color: #00ac97;
+                }
+                >div:nth-of-type(3){
+                    background-color: #14261c;
+                }
+                >div:nth-of-type(4){
+                    background-color: #4f5655;
+                }
+            }
+            .green{
+                >div:first-of-type{
+                    background-color: #1bae70;
+                }
+                >div:last-of-type{
+                    background-color: #f6f7f6;
+                }
+                >div:nth-of-type(2){
+                    background-color: #06752e;
+                }
+                >div:nth-of-type(3){
+                    background-color: #14261c;
+                }
+                >div:nth-of-type(4){
+                    background-color: #4e5652;
+                }
+            }
+            .bloe{
+                >div:first-of-type{
+                    background-color: #4e5652;
+                }
+                >div:last-of-type{
+                    background-color: #f3f6f6;
+                }
+                >div:nth-of-type(2){
+                    background-color: #08acf2;
+                }
+                >div:nth-of-type(3){
+                    background-color: #101218;
+                }
+                >div:nth-of-type(4){
+                    background-color:#4c5253;
+                }
+            }
+            .blue{
+                >div:first-of-type{
+                    background-color: #4175fc;
+                }
+                >div:last-of-type{
+                    background-color: #ffffff;
+                }
+                >div:nth-of-type(2){
+                    background-color:#084af3;
+                }
+                >div:nth-of-type(3){
+                    background-color: #101218;
+                }
+                >div:nth-of-type(4){
+                    background-color: #494b51;
+                }
+            }
+        }
+    .line{
+        width: calc(100% - 40px);
+        height: 1px;
+        background-color: rgba(128, 128, 128, 0.24);
+        margin-top: 30px;
+    }
+    .try_font{
+        display: flex;
+        align-items: center;
+        padding: 20px;
+        justify-content: space-between;
+        width: 100%;
+        color: rgba(0, 0, 0, 0.637);
+        h4{
+            font-size: 16px;
+        }
+        p{
+            font-size: 12px;
+            cursor: not-allowed;
+        }
+        p[attr="true"]{
+            color: #0075be;
+            cursor: pointer;
+        }
+    }
+    .lato{
+        width: calc(100% - 40px);
+        display: flex;
+        justify-content: center;
+        border: 1px solid rgba(0, 0, 0, 0.205);
+        padding: 12px;
+        cursor: pointer;
+        border-radius: 3px;
+        transition-duration: 200ms;
+        h4{
+            font-weight: 500;
+            font-family: 'Lato', sans-serif;
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+    .Aa{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 20px;
+        gap: 10px;
+        >h2{
+            width: 20%;
+            padding: 14px 7px;
+            border: 1px solid rgba(0, 0, 0, 0.24);
+            text-align: center;
+            cursor: pointer;
+            font-weight: 400;
+            transition-duration: 200ms;
+            border-radius: 3px;
+            background-color: #f7f7f9;
+        }
+        >h2:hover{
+            border-color: blue;
+            color: blue;
+        }
+        >h2:nth-of-type(1){
+            font-family: 'Playfair Display', serif;
+        }
+        >h2:nth-of-type(2){
+            font-family: 'Poppins', sans-serif;
+        }
+        >h2:nth-of-type(3){
+            font-family: 'Montserrat', sans-serif;
+        }
+        >h2:nth-of-type(4){
+            font-family: 'Karla', sans-serif;
+        }
+        >h2:nth-of-type(5){
+            font-family: 'Roboto Condensed', sans-serif;
+        }
+        >h2:nth-of-type(6){
+            font-family: 'Merriweather', serif;
+        }
+        >h2:nth-of-type(7){
+            font-family: 'Vollkorn', serif;
+        }
+        >h2:nth-of-type(8){
+            font-family: 'Open Sans', sans-serif;
+        }
+    }
+    .lato:hover{
+        border-color: blue;
+    }
+    .fixed{
+        position: absolute;
+        top: 34%;
+        left: -135px;
+        display: flex;
+        justify-content: space-between;
+        gap: 10px;
+        padding: 18px;
+        background-color: white;
+        cursor: pointer;
+        transition-duration: 400ms;
+        border-radius: 2px 0px 0px 2px;
+        box-shadow: -1px 1px 5px rgba(128, 128, 128, 0.534);
+        i{
+            color: #2563eb;
+        }
+        p{
+            text-transform: capitalize;
+            font-weight: 300;
+        }
+    }
+    .fixed[attr="false"]{
+        width: 135px;
+    }
+    .fixed[attr="true"]{
+        width: 48px;
+        left: -48px;
+        p{
+            display: none;
+        }
+    }
+    .fixed:hover{
+        background-color: #2563eb;
+        i{
+            color: white;
+        }
+        p{
+            color: white;
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.numbers_container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    i{
+        padding: 16px 15px;
+        border: 1px solid black;
+        cursor: pointer;
+        transition-duration: 200ms;
+    }
+    i:hover{
+        background-color:  black;
+        color: white;
+    }
+    p:hover{
+        background-color: black !important;
+        color: white !important;
+    }
+    p{
+        transition-duration: 200ms;
+        padding: 15px;
+        border: 1px solid black;
+        cursor: pointer;
+    }
+    p[attr="true"]{
+        background-color: black;
+        color: white;
+    }
+    p[attr="false"]{
+        background-color: white;
+        color: black;
+    }
+}

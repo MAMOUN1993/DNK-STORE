@@ -1,0 +1,131 @@
+.us{
+    display: flex;
+    height: 450px;
+    >div:first-of-type{
+        width: calc((100% - 395px)/2);
+        background-color: rgba(0, 0, 0, 0.418);
+    }
+    >div:last-of-type{
+        width: calc((100% - 395px)/2);
+        background-color: rgba(0, 0, 0, 0.418);
+    }
+    .follow{
+        width: 395px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 30px;
+        .line_us{
+            width: 20%;
+            height: 4px;
+        }
+        h1{
+            text-transform: capitalize;
+            font-size: 42px;
+        }
+        .icone_us{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 40px;
+        }
+    }
+}
+@media (max-width:320px) {
+    .us{
+        height: 268px;
+        .follow{
+            h1{
+                font-size: 26px;
+            }
+        }
+        >div:first-of-type{
+            width: calc((100% - 90vw)/2);
+        }
+        >div:last-of-type{
+            width: calc((100% - 90vw)/2);
+        }
+        .follow{
+            
+            width:90vw;
+        }
+    }
+}
+@media (min-width:321px) and (max-width:480px) {
+    .us{
+        height: 268px;
+        .follow{
+            h1{
+                font-size: 26px;
+            }
+        }
+        >div:first-of-type{
+            width: calc((100% - 300px)/2);
+        }
+        >div:last-of-type{
+            width: calc((100% - 300px)/2);
+        }
+        .follow{
+            
+            width: 300px;
+        }
+    }
+}
+@media (min-width:480px) and (max-width:600px) {
+    .us{
+        height: 268px;
+        .follow{
+            h1{
+                font-size: 26px;
+            }
+        }
+        >div:first-of-type{
+            width: calc((100% - 440px)/2);
+        }
+        >div:last-of-type{
+            width: calc((100% - 440px)/2);
+        }
+        .follow{
+            
+            width: 440px;
+        }
+    }
+}
+@media (min-width:601px) and (max-width:768px) {
+    .us{
+        height: 268px;
+        .follow{
+            h1{
+                font-size: 26px;
+            }
+        }
+        >div:first-of-type{
+            width: calc((100% - 600px)/2);
+        }
+        >div:last-of-type{
+            width: calc((100% - 600px)/2);
+        }
+        .follow{
+            
+            width: 600px;
+        }
+    }
+}
+@media (max-width:997px) {
+    .us{
+        background-image: url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2019/12/banner-05.jpg);
+        background-position: center;
+        background-size: cover;
+    }
+}
+@media (min-width:769px) and (max-width:997px) {
+    .us{
+        height: 268px;
+        .follow{
+            h1{
+                font-size: 26px;
+            }
+        }
+    }
+}

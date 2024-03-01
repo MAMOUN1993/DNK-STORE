@@ -1,0 +1,144 @@
+.Header[attr="true"]{
+    position: relative;
+    background-color: white;
+    .log-cate{
+        img{
+            height: 100px !important;
+        }
+        .categrice{
+            li{
+                color: black;
+            }
+        }
+    }    
+    .nav-price{
+        i{
+            color: black;
+        }
+        .nav-items{
+            a{
+                color: black;
+            } 
+        }
+        .price-items{
+            li{
+                color: black;
+            }
+        }
+    }
+    
+}
+.Header[attr="false"]{
+    position: absolute;
+}
+.Header{
+    background-color: rgba(88, 118, 199, 0.199);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 35px;
+    height: 100px;
+    width: 100%;
+    z-index: 3;
+    .log-cate{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        gap: 40px;
+        .categrice{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 25px;
+            a{
+                text-decoration: none;
+            }
+            li{
+                cursor: pointer;
+                text-transform: uppercase;
+                font-size: 14px;
+                font-weight: 400;
+                color: white;
+
+            }
+        }
+        .logo{
+            img{
+                cursor: pointer;
+                height: 47px;
+            }
+        }
+    }
+    .nav-price{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        gap: 30px;
+        .nav-items{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            gap: 20px;
+            a{
+                cursor: pointer;
+                text-transform: uppercase;
+                font-size: 14px;
+                font-weight: 400;
+                color: white;
+                text-decoration: none;
+            }
+        }
+        .price-items{
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            >li{
+                cursor: pointer;
+            }
+            >div{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                position: relative;
+                cursor: pointer;
+                >p{
+                    position: absolute;
+                    width: 15px;
+                    height: 15px;
+                    border-radius: 50%;
+                    font-size: 12px;
+                    top: -50%;
+                    right: -100%;
+                    background-color: white;
+                    display: flex;
+                    color: black;
+                    justify-content: center;
+                    align-items: center;
+                }
+            }
+        }
+        .acount{
+            cursor: pointer;
+        }
+    }
+}
+@media(max-width:997px) {
+    .Header{
+        display: none;
+    }
+}
+@media (min-width:998px) and (max-width:1200px) {
+    .Header{
+        padding: 28px 15px; 
+        .log-cate{
+            gap: 0px !important;
+            .categrice{
+                gap: 10px !important;
+            }
+        }
+    }
+    
+}

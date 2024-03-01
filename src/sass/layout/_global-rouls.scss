@@ -1,0 +1,312 @@
+body{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition-duration: 200ms;
+}
+*::before{
+    transition-duration: 200ms;
+}
+*[background = "def"]{
+    background-color: #f5f7f9;
+}
+*[background = "prop"]{
+    background-color: #F3F1F6;
+}
+*[background = "red"]{
+    background-color: #F7F3F5;
+}
+*[background = "pink"]{
+    background-color: #F6F3F5;
+}
+*[background = "ponk"]{
+    background-color: #F8F3F5;
+}
+*[background = "orang"]{
+    background-color: #F8F5F4;
+}
+*[background = "yall"]{
+    background-color: #F8F7F3;
+}
+*[background = "groon"]{
+    background-color: #F3F6F3;
+}
+*[background = "green"]{
+    background-color: #F4F6F4;
+}
+*[background = "bloe"]{
+    background-color: #F3F6F6;
+}
+*[background = "blue"]{
+    background-color: #F3F5F5;
+}
+*[backgroundbutton ="def"]{
+    background-color: #0084d6;
+}
+h3[color="def"]{
+    color: #0084d6;
+}
+*[backgroundbutton ="def"]::before{
+    background-color: #0084d6;
+}
+*:hover[backgroundbutton ="def"]{
+    background-color: #0075be;
+}
+*[backgroundbutton ="prop"]{
+    background-color: #8e43f0;
+}
+h3[color="prop"]{
+    color: #8e43f0;
+}
+*[backgroundbutton ="prop"]::before{
+    background-color: #8e43f0;
+}
+*:hover[backgroundbutton ="prop"]{
+    background-color: #6300e2;
+}
+*[backgroundbutton ="red"]{
+    background-color: #ef4d48;
+}
+h3[color="red"]{
+    color: #ef4d48
+}
+*[backgroundbutton ="red"]::before{
+    background-color: #ef4d48;
+}
+*:hover[backgroundbutton ="red"]{
+    background-color: #d90700;
+}
+*[backgroundbutton ="pink"]{
+    background-color: #ff42b3;
+}
+h3[color="pink"]{
+    color: #ff42b3;
+}
+*[backgroundbutton ="pink"]::before{
+    background-color: #ff42b3;
+}
+*:hover[backgroundbutton ="pink"]{
+    background-color: #ff0099;
+}
+*[backgroundbutton ="ponk"]{
+    background-color: #ff6a97;
+}
+h3[color="ponk"]{
+    color: #ff6a97;
+}
+*[backgroundbutton ="ponk"]::before{
+    background-color: #ff6a97;
+}
+*:hover[backgroundbutton ="ponk"]{
+    background-color: #fa036b;
+}
+*[backgroundbutton ="orang"]{
+    background-color: #FF7A3D;
+}
+h3[color="orang"]{
+    color: #FF7A3D;
+}
+*[backgroundbutton ="orang"]::before{
+    background-color: #FF7A3D;
+}
+*:hover[backgroundbutton ="orang"]{
+    background-color: #FF5100;
+}
+*[backgroundbutton ="yall"]{
+    background-color: #F9C349;
+}
+h3[color="yall"]{
+    color: #F9C349;
+}
+*[backgroundbutton ="yall"]::before{
+    background-color: #F9C349;
+}
+*:hover[backgroundbutton ="yall"]{
+    background-color: #FFB100;
+}
+*[backgroundbutton ="groon"]{
+    background-color: #30C7B5;
+}
+h3[color="groon"]{
+    color: #30C7B5;
+}
+*[backgroundbutton ="groon"]::before{
+    background-color: #30C7B5;
+}
+*:hover[backgroundbutton ="groon"]{
+    background-color: #00AC97;
+}
+*[backgroundbutton ="green"]{
+    background-color: #1BAE70;
+}
+h3[color="green"]{
+    color: #1BAE70;
+}
+*[backgroundbutton ="green"]::before{
+    background-color: #1BAE70;
+}
+*:hover[backgroundbutton ="green"]{
+    background-color: #06752E;
+}
+*[backgroundbutton ="bloe"]{
+    background-color: #2FC1FF;
+}
+h3[color="bloe"]{
+    color: #2FC1FF;
+}
+*[backgroundbutton ="bloe"]::before{
+    background-color: #2FC1FF;
+}
+*:hover[backgroundbutton ="bloe"]{
+    background-color: #08ACF2;
+}
+*[backgroundbutton ="blue"]{
+    background-color: #4175FC;
+}
+h3[color="blue"]{
+    color: #4175FC;
+}
+*[backgroundbutton ="blue"]::before{
+    background-color: #4175FC;
+}
+*:hover[backgroundbutton ="blue"]{
+    background-color: #084AF3;
+}
+li{
+    list-style: none;
+}
+.App[attr-font="Roboto"]{
+    font-family: 'Roboto', sans-serif;
+}
+.App[attr-font="PlayfairDisplay"]{
+    font-family: 'Playfair Display', serif;
+}
+.App[attr-font="Poppins"]{
+    font-family: 'Poppins', sans-serif;
+}
+.App[attr-font="Montserrat"]{
+    font-family: 'Montserrat', sans-serif;
+}
+.App[attr-font="Karla"]{
+    font-family: 'Karla', sans-serif;
+}
+.App[attr-font="RobotoCondensed"]{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.App[attr-font="Merriweather"]{
+    font-family: 'Merriweather', serif;
+}
+.App[attr-font="Vollkorn"]{
+    font-family: 'Vollkorn', serif;
+}
+.App[attr-font="OpenSans"]{
+    font-family: 'Open Sans', sans-serif;
+}
+.global_container{
+    margin: 0px auto;
+}
+@media (max-width:320px) {
+    .global_container{
+        width: 95vw;
+    }
+}
+@media (min-width:321px) and (max-width:480px) {
+    .global_container{
+        width: 300px;
+
+    }
+}
+@media (min-width:480px) and (max-width:600px) {
+    .global_container{
+        width: 450px;
+
+    }
+}
+@media (min-width:601px) and (max-width:768px) {
+    .global_container{
+        width: 550px;
+    }
+}
+@media (min-width:769px) and (max-width:997px) {
+    .global_container{
+        width: 720px;
+
+    }
+}
+@media (min-width:998px) and (max-width:1200px) {
+    .global_container{
+        width: 950px;
+    }
+}
+@media (min-width:1201px) and (max-width:1400px) {
+    .global_container{
+        width: 1150px;
+
+    }
+}
+@media (min-width:1401px) {
+    .global_container{
+        width: 1200px;
+    }
+}
+.image_cover[backgroundbutto ="def"]
+, .landing_contact[backgroundbutto ="def"]::before
+, .landing[backgroundbutton ="def"]::before{
+    background-image: linear-gradient(180deg,#0084D6 -50%,#000000 100%);
+}
+.image_cover[backgroundbutto ="prop"]
+, .landing_contact[backgroundbutto ="prop"]::before
+, .landing[backgroundbutton ="prop"]::before{
+    background-image: linear-gradient(180deg,#8e43f0 -50%,#000000 100%);
+}
+.image_cover[backgroundbutto ="red"]
+, .landing_contact[backgroundbutto ="red"]::before
+, .landing[backgroundbutton ="red"]::before{
+    background-image: linear-gradient(180deg,#ef4d48 -50%,#000000 100%);
+}
+.image_cover[backgroundbutto ="pink"]
+, .landing_contact[backgroundbutto ="pink"]::before
+, .landing[backgroundbutton ="pink"]::before{
+    background-image: linear-gradient(180deg,#ff42b3 -50%,#000000 100%);
+}
+.image_cover[backgroundbutto ="ponk"]
+, .landing_contact[backgroundbutto ="ponk"]::before
+, .landing[backgroundbutton ="ponk"]::before{
+    background-image: linear-gradient(180deg,#ff6a97 -50%,#000000 100%);
+}
+.image_cover[backgroundbutto ="orang"]
+, .landing_contact[backgroundbutto ="orang"]::before
+, .landing[backgroundbutton ="orang"]::before{
+    background-image: linear-gradient(180deg,#FF7A3D -50%,#000000 100%);
+}
+.image_cover[backgroundbutto ="yall"]
+, .landing_contact[backgroundbutto ="yall"]::before
+, .landing[backgroundbutton ="yall"]::before{
+    background-image: linear-gradient(180deg,#F9C349 -50%,#000000 100%);
+}
+.image_cover[backgroundbutto ="groon"]
+, .landing_contact[backgroundbutto ="groon"]::before
+, .landing[backgroundbutton ="groon"]::before{
+    background-image: linear-gradient(180deg,#30C7B5 -50%,#000000 100%);
+}
+.image_cover[backgroundbutto ="green"]
+, .landing_contact[backgroundbutto ="green"]::before
+, .landing[backgroundbutton ="green"]::before{
+    background-image: linear-gradient(180deg,#1BAE70 -50%,#000000 100%);
+}
+.image_cover[backgroundbutto ="bloe"]
+, .landing_contact[backgroundbutto ="bloe"]::before
+, .landing[backgroundbutton ="bloe"]::before{
+    background-image: linear-gradient(180deg,#2FC1FF -50%,#000000 100%);
+}
+
+.image_cover[backgroundbutto ="blue"]
+,.landing_contact[backgroundbutto ="blue"]::before
+,.landing[backgroundbutton ="blue"]::before{
+    background-image: linear-gradient(180deg,#4175FC -50%,#000000 100%);
+}
+

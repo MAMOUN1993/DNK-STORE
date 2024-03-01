@@ -1,0 +1,44 @@
+.about_one{
+    .landing{
+        background-image: url(https://websitedemos.net/brandstore-02/wp-content/uploads/sites/150/2021/05/banner-04.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        z-index: -3;
+        background-position: center;
+        height: 34vw;
+        overflow: hidden;
+        display: flex;
+        align-items: center;
+        position: relative;
+        justify-content: center;
+        h1{
+            text-align: center;
+            text-transform: capitalize;
+            z-index: 1;
+            color: white;
+            font-size: 66px;
+        }
+    }
+    .landing::before{
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 100%;
+        background-color: transparent;
+        z-index: -1;
+        opacity: 0.5;
+    }
+}
+@media (max-width:997px) {
+    .about_one{
+        margin-top: 70px;
+        .landing{
+            background-attachment: unset;
+            background-position-y: 0px;
+            h1{
+                font-size: 40px;
+            }
+        }
+    }
+}
